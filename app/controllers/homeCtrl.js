@@ -1,3 +1,3 @@
 app.controller('HomeCtrl', function($scope) {
-  $scope.stuff = "stuff"
+  $scope.stuff = "test stuff"
 })

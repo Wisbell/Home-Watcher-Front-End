@@ -25,6 +25,21 @@
   </div>
 </nav>
 
-<h1>Home Partial loaded</h1>
-<p>scope {{stuff}}</p>
-<p>random random stuff yep</p>
+<div class="row">
+  recent partial
+
+  <div class="col-sm-6 col-md-4" ng-repeat="picture in pictures">
+
+    <div class="thumbnail">
+    {{picture}}
+      <img src="{{picture.url}}">
+      <div class="caption">
+        <h3 class="text-center">stuff</h3>
+        <p class="text-center">stuff</p>
+      <!--   <p class="text-center"><a href="#!/animals/{{animal.id}}" class="btn btn-primary" role="button">View</a> <a href="#!/animals/edit/{{animal.id}}" class="btn btn-default" role="button">Edit</a></p> -->
+      </div>
+    </div>
+
+  </div>
+
+</div>
