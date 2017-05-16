@@ -1,0 +1,18 @@
+<div class="container-fluid">
+  <div class="row">
+    <h2 class="text-center">Recent Pictures from Motion Sensor</h2>
+
+    <div class="col-sm-6 col-md-4" ng-repeat="picture in pictures">
+
+      <div class="thumbnail">
+        <img src="{{picture.url}}">
+        <div class="caption">
+          <h4 class="text-center">Date Created</h4>
+          <p class="text-center">{{picture.dateCreated}}</p>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</div>
