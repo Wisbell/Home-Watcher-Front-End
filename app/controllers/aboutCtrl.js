@@ -1,3 +1,3 @@
 app.controller('AboutCtrl', function($scope) {
-  $scope.stuff = "about stuff"
+  // Created for possible future functionality
 })

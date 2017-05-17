@@ -1,5 +1,6 @@
 app.factory('AuthFactory', ($http) => {
 
+  // URL for API
   let rootUrl = 'http://localhost:8080'
 
   return {
