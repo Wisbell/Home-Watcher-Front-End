@@ -2,7 +2,10 @@
   <div class="row">
     <h2 class="text-center">Recent Pictures from Camera Module</h2>
 
-    <div class="col-sm-6 col-md-4" ng-repeat="picture in pictures">
+    <!-- <div class="col-sm-6 col-md-4" ng-repeat="picture in pictures"> -->
+
+    <!-- List the most recent pictures first -->
+    <div class="col-sm-6 col-md-4" ng-repeat="picture in pictures | orderBy:'$index':true"">
 
       <div class="thumbnail">
         <img src="{{picture.url}}">
