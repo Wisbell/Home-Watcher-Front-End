@@ -1,9 +1,9 @@
-app.controller('RecentCtrl', function(PicFactory, $scope) {
-  $scope.stuff = "stuff"
+app.controller('RecentCtrl', function(PicFactory, $scope, AuthFactory, $location) {
 
   PicFactory.getAllPictures()
-  .then( (pictures) => {
-    $scope.pictures = pictures
-    $scope.$apply()
-  })
+    .then( (pictures) => {
+      $scope.pictures = pictures
+      $scope.$apply()
+    })
+
 })
