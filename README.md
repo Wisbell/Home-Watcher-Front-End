@@ -7,7 +7,7 @@ Front end for back-end capstone project
 
 This app also includes a version that requires authentication using a redis server to keep session storage.
 
-To see other parts of this project visit [click here](https://github.com/Wisbell/Home-Watcher)
+To see other parts of this project [click here](https://github.com/Wisbell/Home-Watcher)
 
 ## Stretch Goals
 
